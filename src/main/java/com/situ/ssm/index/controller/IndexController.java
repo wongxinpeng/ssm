@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class IndexController implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+	//这是主版本的相关代码
 	@RequestMapping("/admin")
 	public ModelAndView goAdmin(ModelAndView modelAndView) {
 		//WEB-INF/pages/admin.jsp
