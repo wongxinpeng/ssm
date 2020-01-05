@@ -21,6 +21,10 @@ public class UserController implements Serializable {
 	private UserService userService;
 
 	// /user/index
+	/**
+	 * @param modelAndView
+	 * @return
+	 */
 	@RequestMapping("/index")
 	public ModelAndView goIndex(ModelAndView modelAndView) {
 		// /WEB-INF/pages/user/user_index.jsp
