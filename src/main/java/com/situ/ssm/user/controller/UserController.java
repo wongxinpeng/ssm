@@ -31,7 +31,10 @@ public class UserController implements Serializable {
 		modelAndView.setViewName(PAGE_USER_INDEX);
 		return modelAndView;
 	}
-
+	/**
+	 * @param user
+	 * @return
+	 */
 	// @ResponseBody 表示 此方法响应ajax的请求。
 	@ResponseBody
 	@RequestMapping("/add")
