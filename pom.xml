@@ -14,7 +14,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>5.2.2.RELEASE</version>
+			<version>5.3.18</version>
 		</dependency>
 		<!-- Spring + SpringMVC END -->
 		<!-- SpringMVC 支持使用JSON完成数据交互 AJAX BEGIN -->
